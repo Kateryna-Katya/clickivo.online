@@ -59,3 +59,45 @@ font-family: "Montserrat", sans-serif;
     display: block;
   }
 }
+/* DISCLAIMER */
+.disclamer-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+border-radius: 25px;
+    padding: 56px 0px;
+    width: 356px;
+    height: 525px;
+    backdrop-filter: blur(15.600000381469727px);
+        box-shadow: 0 0 50px 0 #db2da2;
+        background: rgba(0, 0, 0, 0.5);
+}
+.disclaimer-title{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 1;
+        text-transform: uppercase;
+        text-align: center;
+        color: #f6af1a;
+}
+.disclaimer-text{
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.25;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+  .disclamer-container{
+    width: 1160px;
+        height: 212px;
+        padding: 30px 64px;
+  }
+  .disclaimer-text{
+    font-size: 20px;
+    line-height: 1.7;
+  }
+}
