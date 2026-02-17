@@ -155,3 +155,24 @@ border-radius: 25px;
     color: #00ffd9;
     margin-top: 54px;
 }
+@media only screen and (min-width: 1440px) {
+.queens-container{
+    position: relative;
+}
+.queens-img{
+    position: absolute;
+}
+.queens-list{
+    gap: 68px;
+}
+.queen-one{
+    position: absolute;
+    top: 0;
+    left:5%;
+}
+.queen-two{
+    position: absolute;
+        top: 0;
+        right: 6%;
+}
+}
