@@ -121,3 +121,37 @@ border-radius: 25px;
     text-align: left;
  }
 }
+/* THE QUEENS */
+.queens-subtitle{
+    margin-top: 21px;
+    margin-bottom: 37px;
+}
+.queens-list{
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+    align-items: center;
+}
+.queens-item{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.queen-title-item{
+    margin-bottom: 24px;
+    font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 1.4;
+        text-transform: uppercase;
+        text-align: center;
+        color: #db2da2;
+}
+.queen-text-item{
+    width: 292px;
+}
+.queen-title-item-two{
+    color: #00ffd9;
+    margin-top: 54px;
+}
