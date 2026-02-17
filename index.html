@@ -2,55 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/clickivo.online/favicon.svg" />
+    <link rel="icon" type="image/png" href="/clickivo.online/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Hungry Night</title>
     <script type="module" crossorigin src="/clickivo.online/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/clickivo.online/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/clickivo.online/assets/styles-Dr3La9kA.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <h1 class="visually-hidden">Hungry Night</h1>
+        <div class="home-wrapper">
+            <picture>
+                <source srcset="/clickivo.online/assets/logo-desk-BtzdLSW9.png 1x, /clickivo.online/assets/logo-desk@2x-C6lxhotF.png 2x" media="(min-width: 1440px)" />
+                <source srcset="/clickivo.online/assets/logo-mob-BPsWEbMK.png 1x, /clickivo.online/assets/logo-mob@2x-Cm_cjVJS.png 2x" media="(max-width: 1439px)" />
+                <img class="home-logo" src="/clickivo.online/assets/logo-mob-BPsWEbMK.png" alt="Hungry Night" loading="lazy" />
+            </picture>
+            <p class="hero-big-text">You know what's weird? Some of the coolest<br class="desk"/> stuff happens in the dark.</p>
+            <a class="hero-link btn" href="#demo">
+               <p>Enter the Night</p>
+            </a>            
+            <p class="home-text">There is a place beneath the world where night never ends.<br/>A realm shaped by silence, glowing eyes, and delicate danger
+            — where darkness isn’t empty, but alive.<br/>
+            Hungry Night draws you into this underworld, where two ancient queens rule in quiet rivalry.<br />Honestly, whoever designed
+            this must've been obsessed with gothic horror movies.</p>
+
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
