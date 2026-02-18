@@ -405,9 +405,6 @@ width: 1160px;
     padding-left: 1px;
     padding-right: 1px;
 }
-.gallery-swiper {
-    overflow: visible;
-}
 
 
 .gallery-swiper .swiper-slide{
@@ -424,7 +421,5 @@ width: 222px !important;
     padding-left: 273px;
     padding-right: 273px;
    }
-.gallery-swiper {
-    overflow: hidden;
-}
+
 }
