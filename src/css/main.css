@@ -424,5 +424,7 @@ width: 222px !important;
     padding-left: 273px;
     padding-right: 273px;
    }
-
+.gallery-swiper {
+    overflow: hidden;
+}
 }
