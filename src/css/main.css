@@ -246,11 +246,10 @@ width: 373px;
 .iframe-wrapper {
     position: absolute;
     top: 0%;
-    left: 50%;
+    left: 51%;
     transform: translateX(-51%);
     width: 373px;
     height: 690px;
-
     z-index: 5;
 
     /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
@@ -309,7 +308,7 @@ width: 373px;
 
 
     .demo-container {
-        padding: 0 140px 54px;
+        padding:54px 140px;
     }
 
     .demo-wrapper {
