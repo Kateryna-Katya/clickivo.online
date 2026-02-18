@@ -46,8 +46,10 @@ function initGallery() {
         delay: 3000,
         disableOnInteraction: false,
       },
-      slidesPerView: 1,
-      spaceBetween: 20,
+slidesPerView: 'auto',
+centeredSlides: true,
+
+      spaceBetween: 10,
 
       navigation: {
         nextEl: '.gallery-next',
@@ -57,6 +59,7 @@ function initGallery() {
       breakpoints: {
         1440: {
           slidesPerView: 3,
+          spaceBetween: 114,
         },
       },
     });

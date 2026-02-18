@@ -398,3 +398,32 @@ width: 1160px;
  }
 }
 /* WHY HUNGRY NIGHT STANDS APART */
+.why-suntitle{
+    margin-top: 21px;
+    margin-bottom: 36px;
+}
+.gallery-container{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.gallery-swiper {
+    overflow: visible;
+}
+
+
+.gallery-swiper .swiper-slide{
+width: 222px !important;
+}
+.why-img{
+    height: 138px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+@media only screen and (min-width: 1440px) {
+   .gallery-container{
+    padding-left: 273px;
+    padding-right: 273px;
+   }
+
+}
