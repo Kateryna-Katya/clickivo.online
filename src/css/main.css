@@ -344,3 +344,57 @@ width: 1160px;
         transform: translateX(-50%);
     }
 }
+/* VISUAL BEAUTY */
+.visual-container{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.visual-text{
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
+.visual-img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    height: 117px;
+}
+.visual-slide-text{
+    font-size: 18px
+}
+.arrow-wrapper{
+    margin-top: 63px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.arrows{
+    background-color: inherit;
+    border: none;
+}
+@media only screen and (min-width: 1440px) {
+ .visual-prev,
+ .visual-next{
+    display: none;
+ }
+ .visual-container{
+    padding-left: 140px;
+    padding-right: 140px;
+ }
+ .visual-swiper{
+    width: 1160px;
+ }
+ .visual-swiper .swiper-wrapper{
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+ }
+ .visual-swiper .swiper-slide{
+    width: 222px;
+        height: 216px;
+ }
+}
+/* WHY HUNGRY NIGHT STANDS APART */

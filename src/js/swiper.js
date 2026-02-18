@@ -14,7 +14,7 @@ function initVisual() {
   if (window.innerWidth < BREAKPOINT) {
     if (!visualSwiper) {
       visualSwiper = new Swiper('.visual-swiper', {
-        modules: [Autoplay],
+        modules: [Navigation, Autoplay],
         loop: true,
         autoplay: {
           delay: 3000,
@@ -22,6 +22,11 @@ function initVisual() {
         },
         slidesPerView: 2,
         spaceBetween: 10,
+        navigation: {
+        nextEl: '.visual-next',
+        prevEl: '.visual-prev',
+      },
+
       });
     }
   } else {
@@ -51,7 +56,7 @@ function initGallery() {
 
       breakpoints: {
         1440: {
-          slidesPerView: 2,
+          slidesPerView: 3,
         },
       },
     });
