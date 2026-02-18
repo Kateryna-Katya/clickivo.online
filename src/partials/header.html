@@ -1,0 +1,61 @@
+<header class="header" id="site-header">
+    <div class="header-container container">
+        <a class="header-link" href="./#home">
+            <picture>
+                <source srcset="
+                            /img/header/header-desk.png 1x,
+                            /img/header/header-desk@2x.png 2x
+                                        " media="(min-width: 1440px)" />
+                <source srcset="
+                            /img/header/header-mob.png 1x,
+                            /img/header/header-mob@2x.png 2x
+                                        " media="(max-width: 1439px)" />
+                <img class="header-logo" src="/img/header/header-mob.png" alt="Book of the priestess" loading="lazy" />
+            </picture>
+        </a>
+        <button type="button" class="menu-button" aria-label="menu toggle">
+            <span class="icon">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M5.5 33V29.3333H38.5V33H5.5ZM5.5 23.8333V20.1667H38.5V23.8333H5.5ZM5.5 14.6667V11H38.5V14.6667H5.5Z"
+                        fill="white" />
+                </svg>
+            </span>
+        </button>
+
+        <nav class="nav ">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="links" href="./#home">Home</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#about">About the Book</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#how">How It Works</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#gallery">Gallery</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#demo">Play</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+    <ul class="menu-list">
+        <li class="menu-item"><a class="menu-list-item" href="./#home">Home</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#about">About the Book</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#how">How It Works</a></li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#gallery">Gallery</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#demo">Play</a>
+        </li>
+    </ul>
+</div>
